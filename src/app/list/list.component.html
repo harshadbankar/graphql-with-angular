@@ -1,0 +1,12 @@
+<div *ngFor="let location of locations | async">
+  <div class="card" style="width: 100%; margin-top: 10px">
+    <div class="card-body">
+      <a href="{{location.url}}" class="card-link" target="_blank">
+          <h5 class="card-title">{{ location.name}}</h5>
+      </a>
+      <h6 class="card-subtitle mb-2 text-muted">{{ location.address }}</h6>
+      <p class="card-text"> {{ location.description }}</p>
+      <img src="{{location.imageUrl}}" class="card-img-bottom" alt="{{ location.name}}">
+    </div>
+  </div>
+</div>
