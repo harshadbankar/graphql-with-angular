@@ -1,9 +1,9 @@
-#AngularApollo:
+## AngularApollo:
 
 Goal of this this project is to add apollo client to the angular project
 
-#To Start:
+## To Start:
 ng-serve
 
-#Steps:
+## Steps:
 *Comming soon
